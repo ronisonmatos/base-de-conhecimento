@@ -1,5 +1,5 @@
 # Projeto: Base de Conhecimento
-####Projeto desenvolvido para reunir todos os conhecimentos adquiridos durante cursos, exercícios, livros e no dia a dia de desenvolvimento.
+#### Projeto desenvolvido para reunir todos os conhecimentos adquiridos durante cursos, exercícios, livros e no dia a dia de desenvolvimento.
 
 ## Sub-projeto: Curso Java Completo
 Esse projeto reúne os conhecimentos adquirido no curso de
@@ -18,10 +18,10 @@ Também conta com alguns trechos do livro "`Arquitetura limpa: O guia do artesã
 - [ ] Sim
 - [x] Não
 
-##IDE utilizada: IntelliJ IDEA
+## IDE utilizada: IntelliJ IDEA
 ![](src/main/resources/IDE-IntelliJ.png)
 
-##Tecnologias utilizadas:
+## Tecnologias utilizadas:
  - Maven
  - Lombok
  - Java 8
@@ -42,5 +42,8 @@ Também conta com alguns trechos do livro "`Arquitetura limpa: O guia do artesã
 <logback.version>1.2.3</logback.version>
 </properties>
 ```
+
+## Build com Heroku
+- https://dashboard.heroku.com/apps/base-conhecimento/activity/builds/3b63fe80-90ea-4553-948a-0c27d78af4c9
 
 > Autor: Ronison Matos
