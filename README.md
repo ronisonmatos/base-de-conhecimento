@@ -31,6 +31,8 @@ Esse projeto reúne os conhecimentos adquirido no curso de "[Persistência com J
  - JUnit
  - Log4J
  - SonarQube
+ - JPA
+ - Hibernate
 
 [Pom Principal](pom.xml)
 
