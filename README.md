@@ -19,9 +19,9 @@ Também conta com alguns trechos do livro "`Arquitetura limpa: O guia do artesã
 - [x] Não
 ## Sub-projeto: jpa-e-hibernate
 Esse projeto reúne os conhecimentos adquirido nos cursos disponível na Alura.:
-- [x] Parte 1: "[Persistência com JPA: Introdução ao Hibernate](https://cursos.alura.com.br/course/persistencia-jpa-introducao-hibernate)",
-- [ ] Parte 2: "[Java e JPA: Consultas avançadas, performance e modelos complexos](https://cursos.alura.com.br/course/java-jpa-consultas-avancadas-performance-modelos-complexos)",
-- [ ] Parte 3: "[Spring Data JPA: Repositórios, Consultas, Projeções e Specifications](https://cursos.alura.com.br/course/spring-data-jpa)",
+- [x] Parte 1: [Persistência com JPA: Introdução ao Hibernate](https://cursos.alura.com.br/course/persistencia-jpa-introducao-hibernate),
+- [ ] Parte 2: [Java e JPA: Consultas avançadas, performance e modelos complexos](https://cursos.alura.com.br/course/java-jpa-consultas-avancadas-performance-modelos-complexos),
+- [ ] Parte 3: [Spring Data JPA: Repositórios, Consultas, Projeções e Specifications](https://cursos.alura.com.br/course/spring-data-jpa).
 
 
 ## IDE utilizada: IntelliJ IDEA
