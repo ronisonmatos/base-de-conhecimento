@@ -17,6 +17,9 @@ Também conta com alguns trechos do livro "`Arquitetura limpa: O guia do artesã
 - **Curso Concluídos:**
 - [ ] Sim
 - [x] Não
+## Sub-projeto: jpa-e-hibernate
+Esse projeto reúne os conhecimentos adquirido no curso de "[Persistência com JPA: Introdução ao Hibernate](https://cursos.alura.com.br/course/persistencia-jpa-introducao-hibernate)", disponível na Alura.
+
 
 ## IDE utilizada: IntelliJ IDEA
 ![](src/main/resources/IDE-IntelliJ.png)
@@ -43,7 +46,7 @@ Também conta com alguns trechos do livro "`Arquitetura limpa: O guia do artesã
 </properties>
 ```
 
-## Build com Heroku
+## Heroku
 - https://dashboard.heroku.com/apps/base-conhecimento/activity/builds/3b63fe80-90ea-4553-948a-0c27d78af4c9
 
 > Autor: Ronison Matos

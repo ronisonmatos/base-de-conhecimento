@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2"
+             xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+
+    <persistence-unit name="jpa" transaction-type="RESOURCE_LOCAL">
+        <!-- <class>alura.loja.modelo.Produto</class> - Por padrão na JPA tem que adicionar a classe de mapeamento aqui
+ como estamos utilizando o Hibernate não será necessário-->
+        <properties>
+            <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:h2:mem:loja"/>
+            <property name="javax.persistence.jdbc.user" value="sa"></property>
+            <property name="javax.persistence.jdbc.password" value=""></property>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <!-- Comando para que Hibernate cria o banco automático
+            <property name="hibernate.hbm2ddl.auto" value="create"/> -->
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+        </properties>
+    </persistence-unit>
+
+ <persistence-unit name="jpa-sql" transaction-type="JTA">
+
+     <!-- Entity gerada automaticamente
+     IntelliJ IDEA. Working with Hibernate/JPA (2021): https://www.youtube.com/watch?v=QJddHc41xrM&ab_channel=IntelliJIDEAbyJetBrains
+-->
+     <properties>
+        <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"></property>
+        <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://localhost:1433;databaseName=jpa"></property>
+        <property name="javax.persistence.jdbc.user" value="matos"></property>
+        <property name="javax.persistence.jdbc.password" value="123456"></property>
+        <property name="hibernate.dialect" value="org.hibernate.dialect.SQLServerDialect"/>
+    </properties>
+    </persistence-unit>
+</persistence>

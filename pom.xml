@@ -10,6 +10,7 @@
 		<module>design-patterns</module>
 		<module>java-exercises</module>
 		<module>curso-java-completo</module>
+		<module>jpa-e-hibernate</module>
 	</modules>
 
 	<properties>
