@@ -33,7 +33,7 @@ public class MainExercisesFactory {
     }
 
     /*Recebo o tipo de Emissão*/
-    private static void configure(String type) {
+    public static void configure(String type) {
         switch (type){
             case "nfe":
                 document = new CreateNfeEmission();
