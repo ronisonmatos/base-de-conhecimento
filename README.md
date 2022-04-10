@@ -15,8 +15,8 @@ Também conta com alguns trechos do livro "`Arquitetura limpa: O guia do artesã
 | Livro   | 60%              |
 
 - **Curso Concluídos:**
-- [ ] Sim
-- [x] Não
+- [x] Sim
+- [ ] Não
 ## Sub-projeto: jpa-e-hibernate
 Esse projeto reúne os conhecimentos adquirido nos cursos disponível na Alura.:
 - [x] Parte 1: [Persistência com JPA: Introdução ao Hibernate](https://cursos.alura.com.br/course/persistencia-jpa-introducao-hibernate),
